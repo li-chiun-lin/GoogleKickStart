@@ -29,20 +29,14 @@
 
 ## 2022
 
-- Praction Session #1
-  - [ ] Sample Problem
-  - [ ] Centauri Prime
-  - [ ] H-index
-  - [ ] Hex
-  - [ ] Milk Tea
 - Round A
-  - [ ] Speed Typing
-  - [ ] Challenge Nine
+  - [x] Speed Typing
+  - [x] Challenge Nine
   - [ ] Palindrome Free Strings
   - [ ] Interesting Integers
 - Round B
-  - [ ] Infinity Area
-  - [ ] Palindromic Factors
+  - [x] Infinity Area
+  - [x] Palindromic Factors
   - [ ] Unlock the Padlock
   - [ ] Hamiltonian Tour
 - Round C
@@ -50,12 +44,6 @@
   - [ ] Range Partition
   - [ ] Ants on a Stick
   - [ ] Palindromic Deletions
-- Praction Session #2
-  - [ ] Sample Problem
-  - [ ] Sherlock and Parentheses
-  - [ ] Building Palindromes
-  - [ ] Irregular Expressions
-  - [ ] Parcels
 - Round D
   - [x] Image Labeler
   - [x] Maximum Gain
@@ -66,12 +54,6 @@
   - [x] Students and Mentors
   - [ ] Matching Palindrome
   - [ ] Pizza Delivery
-- Praction Session #3
-  - [x] Sample Problem
-  - [x] Record Breaker
-  - [x] Wiggle Walk
-  - [x] GBus count
-  - [ ] Sherlock and Watson Gym Secrets
 - Round F
   - [x] Sort the Fabrics
   - [x] Water Container System
@@ -149,7 +131,7 @@
   - [ ] Perfect Subarray
   - [ ] Candies
 - Round D
-  - [ ] Record Breaker
+  - [x] Record Breaker
   - [ ] Alien Piano
   - [ ] Beauty of tree
   - [ ] Locked Doors
@@ -185,7 +167,7 @@
   - [ ] Energy Stones
   - [ ] Diverse Subarray
 - Round C
-  - [ ] Wiggle Walk
+  - [x] Wiggle Walk
   - [ ] Circuit Board
   - [ ] Catch Some
 - Round D
@@ -286,7 +268,7 @@
   - [ ] Clash Royale
 - Round B
   - [x] Sherlock and Parentheses
-  - [x] Sherlock nd Watson Gym Secrets
+  - [x] Sherlock and Watson Gym Secrets
   - [ ] Watson and Intervals
   - [ ] Sherlock and Permutation Sorting
 - Round C
