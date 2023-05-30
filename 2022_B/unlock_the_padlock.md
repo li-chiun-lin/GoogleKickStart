@@ -28,5 +28,4 @@ The goal for you is to output the minimum number of valid operations needed to m
 The first line of the input contains the number of test cases, $T$. $T$ test cases follow.  
 Each test case consists of two lines.  
 The first line of each test case contains two integers $N$ and $D$, representing the number of dials in the padlock and the size of the dials, respectively.  
-The second line of each test case contains $N$  
-integers $V_1,V_2,…,V_N$, where the $i$-th integer represents the value of the $i$-th dial in the initial combination of the padlock.
+The second line of each test case contains $N$ integers $V_1,V_2,…,V_N$, where the $i$-th integer represents the value of the $i$-th dial in the initial combination of the padlock.

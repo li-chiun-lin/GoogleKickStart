@@ -37,11 +37,11 @@
 - Round B
   - [x] Infinity Area
   - [x] Palindromic Factors
-  - [ ] Unlock the Padlock
+  - [x] Unlock the Padlock
   - [ ] Hamiltonian Tour
 - Round C
-  - [ ] New Password
-  - [ ] Range Partition
+  - [x] New Password
+  - [x] Range Partition
   - [ ] Ants on a Stick
   - [ ] Palindromic Deletions
 - Round D
@@ -66,15 +66,15 @@
   - [ ] Cute Little Butterfly
 - Round H
   - [x] Running in Circles
-  - [ ] Magical Well Of Lilies
+  - [x] Magical Well Of Lilies
   - [ ] Electricity
   - [ ] Level Design
 
 ## 2021
 
 - Round A
-  - [ ] K-Goodness String
-  - [ ] L Shaped Plots
+  - [x] K-Goodness String
+  - [x] L Shaped Plots
   - [ ] Rabbit House
   - [ ] Checksum
 - Round B

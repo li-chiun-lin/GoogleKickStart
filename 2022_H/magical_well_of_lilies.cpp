@@ -19,36 +19,8 @@
 
 using namespace std;
 
-void dfs(int L, int note, int basket, int coin, int& ret)
-{
-    if (L == 0)
-    {
-        ret = min(ret, coin);
-        return ;
-    }
-
-    if (coin >= ret)
-        return ;
-
-    dfs(L - 1, note, basket + 1, coin + 1, ret);
-
-    if (basket && L >= basket && note != basket && coin + 6 < ret)
-        dfs(L, basket, basket, coin + 4, ret);
-
-    if (note && L >= note && coin + 2 < ret)
-        dfs(L - note, note, basket + note, coin + 2, ret);
-}
-
 int magical(int L)
 {
-    #if 0
-    int ret = L;
-
-    dfs(L, 0, 0, 0, ret);
-
-    return ret;
-    #endif
-
     vector<int> dp(L + 1, INT_MAX);
     dp[0] = 0;
     dp[1] = 1;

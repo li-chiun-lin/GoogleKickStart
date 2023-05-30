@@ -8,5 +8,5 @@ Given the number of lilies $L$ in the well at the beginning, return the minimum 
 
 ## Input
 
-The first line of the input gives the number of test cases, $T$. $T$ lines follow.
+The first line of the input gives the number of test cases, $T$. $T$ lines follow.  
 Each line contains a single integer $L$, representing the number of lilies in the well at the beginning.
