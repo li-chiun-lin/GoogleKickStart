@@ -6,8 +6,8 @@ For example, if $N=2$,
 $
     A=
     \begin{bmatrix}
-        1&1\\
-        0&1
+        1&0\\
+        1&1
     \end{bmatrix}
 $, then
 $

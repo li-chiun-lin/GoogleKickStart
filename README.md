@@ -75,7 +75,7 @@
 - Round A
   - [x] K-Goodness String
   - [x] L Shaped Plots
-  - [ ] Rabbit House
+  - [x] Rabbit House
   - [ ] Checksum
 - Round B
   - [ ] Increasing Substring
