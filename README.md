@@ -88,27 +88,27 @@
   - [ ] Rock Paper Scissors
   - [ ] Binary Operator
 - Round D
-  - [ ] Arithmetic Square
-  - [ ] Cutting Intervals
-  - [ ] Final Exam
+  - [x] Arithmetic Square
+  - [x] Cutting Intervals
+  - [x] Final Exam
   - [ ] Primes and Queries
 - Round E
-  - [ ] Shuffled Anagrams
+  - [x] Shuffled Anagrams
   - [ ] Birthday Cake
-  - [ ] Palindromic Crossword
+  - [x] Palindromic Crossword
   - [ ] Increasing Sequence Card Game
 - Round F
-  - [ ] Trash Bins
+  - [x] Trash Bins
   - [ ] Festival
   - [ ] Star Trappers
   - [ ] Graph Travel
 - Round G
-  - [ ] Dogs and Cats
+  - [x] Dogs and Cats
   - [ ] Staying Hydrated
-  - [ ] Banana Bunches
+  - [x] Banana Bunches
   - [ ] Simple Polygon
 - Round H
-  - [ ] Transform the String
+  - [x] Transform the String
   - [ ] Painter
   - [ ] Silly Substitutions
   - [ ] Dependent Events
