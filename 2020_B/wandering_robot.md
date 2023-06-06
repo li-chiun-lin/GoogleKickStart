@@ -13,3 +13,8 @@ Jemma did not have much time to program her robot, so it follows a very simple a
 - The robot will randomly choose to either move to the square directly to the right, or to the square directly below it with equal probability.
 
 Jemma passes the challenge if her robot avoids falling into the hole and makes it to the square $(W, H)$. What is the probability she passes the challenge?
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow.  
+Each test case consists of a single line containing $W, H, L, U, R$ and $D$.

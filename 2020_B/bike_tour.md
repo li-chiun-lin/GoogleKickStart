@@ -8,3 +8,9 @@ A checkpoint is a peak if:
 - The height of the checkpoint is strictly greater than the checkpoint immediately before it and the checkpoint immediately after it.
 
 Please help Li find out the number of peaks.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ test cases follow.  
+Each test case begins with a line containing the integer $N$.  
+The second line contains $N$ integers. The $i$-th integer is $H_i$.

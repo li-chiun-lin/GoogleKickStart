@@ -109,21 +109,21 @@
   - [ ] Simple Polygon
 - Round H
   - [x] Transform the String
-  - [ ] Painter
+  - [x] Painter
   - [ ] Silly Substitutions
   - [ ] Dependent Events
 
 ## 2020
 
 - Round A
-  - [ ] Allocation
-  - [ ] Plates
+  - [x] Allocation
+  - [x] Plates
   - [ ] Workout
   - [ ] Bundling
 - Round B
-  - [ ] Bike Tour
-  - [ ] Bus Routes
-  - [ ] Robot Path Decoding
+  - [x] Bike Tour
+  - [x] Bus Routes
+  - [x] Robot Path Decoding
   - [ ] Wandering Robot
 - Round C
   - [ ] Countdown

@@ -16,3 +16,8 @@ There is also a special instruction $X(Y)$, where $X$ is a number between $2$ an
 - $EEEE4(N)2(SS)$ is equivalent to $EEEENNNNSSSS$.
 
 Since the planet is a spheroid, the first and last columns are adjacent, so moving east from column $10^9$ will move the rover to column $1$ and moving south from row $10^9$ will move the rover to row $1$. Similarly, moving west from column $1$ will move the rover to column $10^9$ and moving north from row $1$ will move the rover to row $10^9$. Given a program that the robot will execute, determine the final position of the robot after it has finished all its movements.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ lines follow.  
+Each line contains a single string: the program sent to the rover.
