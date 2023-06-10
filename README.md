@@ -126,44 +126,44 @@
   - [x] Robot Path Decoding
   - [ ] Wandering Robot
 - Round C
-  - [ ] Countdown
+  - [x] Countdown
   - [ ] Stable Wall
   - [ ] Perfect Subarray
   - [ ] Candies
 - Round D
   - [x] Record Breaker
-  - [ ] Alien Piano
+  - [x] Alien Piano
   - [ ] Beauty of tree
   - [ ] Locked Doors
 - Round E
-  - [ ] Longest Arithmetic
+  - [x] Longest Arithmetic
   - [ ] High Buildings
   - [ ] Toys
   - [ ] Golden Stone
 - Round F
-  - [ ] ATM Queue
-  - [ ] Metal Harvest
+  - [x] ATM Queue
+  - [x] Metal Harvest
   - [ ] Painters' Duel
   - [ ] Yeetzhee
 - Round G
-  - [ ] Kick_Start
-  - [ ] Maximum Coins
+  - [x] Kick_Start
+  - [x] Maximum Coins
   - [ ] Combination Lock
   - [ ] Merge Cards
 - Round H
-  - [ ] Retype
+  - [x] Retype
   - [ ] Boring Numbers
   - [ ] Rugby
-  - [ ] Friends
+  - [x] Friends
 
 ## 2019
 
 - Round A
-  - [ ] Training
+  - [x] Training
   - [ ] Parcels
   - [ ] Contention
 - Round B
-  - [ ] Building Palindromes
+  - [x] Building Palindromes
   - [ ] Energy Stones
   - [ ] Diverse Subarray
 - Round C
@@ -171,7 +171,7 @@
   - [ ] Circuit Board
   - [ ] Catch Some
 - Round D
-  - [ ] X or What?
+  - [x] X or What?
   - [ ] Latest Guests
   - [ ] Food Stalls
 - Round E

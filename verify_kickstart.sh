@@ -24,5 +24,5 @@ else
 fi
 
 rm -f $1  
-rm -f ${1}_ts${3}_out.txt
-rm -f ${1}_ts${3}_err.txt
+rm -f ${1}_ts*_out.txt
+rm -f ${1}_ts*_err.txt
