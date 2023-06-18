@@ -19,7 +19,7 @@ elif [ $2 == "c" ]; then
 else
     make CPPFLAGS=${FLAGS} $1  && \
     ./$1 < ${1}_ts${3}_input.txt 2>${1}_ts${3}_err.txt 1>${1}_ts${3}_out.txt  && \
-    diff ${1}_ts${3}_output.txt ${1}_ts${3}_out.txt    
+    diff ${1}_ts${3}_out.txt ${1}_ts${3}_output.txt    
     cat  ${1}_ts${3}_err.txt
 fi
 

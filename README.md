@@ -175,7 +175,7 @@
   - [ ] Latest Guests
   - [ ] Food Stalls
 - Round E
-  - [ ] Cherries Mesh
+  - [x] Cherries Mesh
   - [ ] Code-Eat Switcher
   - [ ] Street Checkers
 - Round F
@@ -183,19 +183,19 @@
   - [ ] Teach Me
   - [ ] Spectating Villages
 - Round G
-  - [ ] Book Reading
-  - [ ] The Equation
+  - [x] Book Reading
+  - [x] The Equation
   - [ ] Shifts
 - Round H
-  - [ ] H-index
-  - [ ] Diagonal Puzzle
+  - [x] H-index
+  - [x] Diagonal Puzzle
   - [ ] Elevanagram
 
 ## 2018
 
 - Round A
-  - [ ] Even Digits
-  - [ ] Lucky Dip
+  - [x] Even Digits
+  - [x] Lucky Dip
   - [ ] Scrambled Words
 - Round B
   - [ ] No Nine
