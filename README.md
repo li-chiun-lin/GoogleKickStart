@@ -198,24 +198,24 @@
   - [x] Lucky Dip
   - [ ] Scrambled Words
 - Round B
-  - [ ] No Nine
+  - [x] No Nine
   - [ ] Sherlock and the Bit Strings
   - [ ] King's Circle
 - Round C
-  - [ ] Planet Distance
+  - [x] Planet Distance
   - [ ] Fairies and Witches
   - [ ] Kickstart Alarm
 - Round D
-  - [ ] Candies
-  - [ ] Paragliding
+  - [x] Candies
+  - [x] Paragliding
   - [ ] Funniest Word Search
 - Round E
   - [ ] Board Game
-  - [ ] Milk Tea
-  - [ ] Yogurt
+  - [x] Milk Tea
+  - [x] Yogurt
 - Round F
-  - [ ] Common Anagrams
-  - [ ] Specializing Villages
+  - [x] Common Anagrams
+  - [x] Specializing Villages
   - [ ] Palindromic Sequence
 - Round G
   - [ ] Product Triplets
