@@ -1,5 +1,5 @@
 /*
-to be continued.
+
 */
 
 #define _USE_MATH_DEFINES
@@ -26,23 +26,20 @@ to be continued.
 
 using namespace std;
 
-long long d2(pair<int, int>& a, pair<int, int>& b)
+int mural(int N, string& W)
 {
-	return pow(a.first - b.first, 2) + pow(a.second - b.second, 2);
-}
+	int glo = 0;
+	int n = (N + 1) / 2;
+	int loc = accumulate(begin(W), begin(W) + (n - 1), 0) - (n - 1) * '0';
 
-int square_cnt(int R, int C)
-{
-	int m = 1e9 + 7;
-	long long cnt = 0;
+	for (int i = n - 1; i < N; ++i)
+	{
+		loc += W[i] - '0'; 
+		glo = max(glo, loc);
+		loc -= W[i - (n - 1)] - '0';
+	}
 
-	for (int i = 0; i < R; ++i)
-		for (int j = 0; j < C; ++j)
-		{
-
-		}
-	
-	return cnt;
+	return glo;
 }
 
 int main()
@@ -52,11 +49,12 @@ int main()
 
 	for (int t = 1; t <= T; ++t)
 	{
-		int R, C;
-		cin >> R >> C;
+		int N;
+		string W;
+		cin >> N >> W;
 
 		cout << "Case #" << t << ": ";
-		cout << square_cnt(R, C) << "\n";
+		cout << mural(N, W) << "\n";
 	}
 
 	return 0;

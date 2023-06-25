@@ -1,6 +1,6 @@
 # Problem
 
-"Look at the stars, look how they shine for you." - Coldplay, "Yellow"
+> "Look at the stars, look how they shine for you." - Coldplay, "Yellow"
 
 In a galaxy far, far away, there are many stars. Each one is a sphere with a certain position (in three-dimensional space) and radius. It is possible for stars to overlap each other.
 

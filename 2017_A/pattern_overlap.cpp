@@ -1,5 +1,5 @@
 /*
-to be continued.
+
 */
 
 #define _USE_MATH_DEFINES
@@ -26,50 +26,13 @@ to be continued.
 
 using namespace std;
 
-bool dfs(const string& s1, const string&s2, int i, int j)
+bool dfs(string& s1, string&s2, int i, int j)
 {
-	int n = s1.size();
-	int m = s2.size();
 
-	cout << i << "[" << s1[i] << "] " << j << "[" << s2[j] << "]\n";
-
-	if (i == n && j == m)
-		return true;
-
-	if (i == n || j == m)
-		return false;
-
-	if (s1[i] == '*')
-	{
-		for (int k = 0; k <= 4; ++k)
-		{
-			if (s2[j + k] == '*')
-				return dfs(s1, s2, i + 1, j + k + 1);
-
-			if (dfs(s1, s2, i + 1, j + k))
-				return true;
-		}
-	}
-
-	if (s2[j] == '*')
-	{
-		for (int k = 0; k <= 4; ++k)
-		{
-			//if (s1[i + k] == '*')
-			//	return dfs(s1, s2, i + k + 1, j + 1);
-
-			if (dfs(s1, s2, i + k, j + 1))
-				return true;
-		}
-	}
-	
-	if (s1[i] == s2[j])
-		return dfs(s1, s2, i + 1, j + 1);
-	
 	return false;
 }
 
-bool match(const string& s1, const string& s2)
+bool match(string& s1, string& s2)
 {
 	return dfs(s1, s2, 0, 0);
 }

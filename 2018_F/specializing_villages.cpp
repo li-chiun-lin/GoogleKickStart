@@ -32,24 +32,18 @@ long long village(int V, int E, vector<vector<int>>& R)
 
 	for (auto& r : R)
 	{
-		adj[r[0] - 1].push_back({r[1] - 1, r[2]});
-		adj[r[1] - 1].push_back({r[0] - 1, r[2]});
+		adj[r[0] - 1].push_back({r[2], r[1] - 1});
+		adj[r[1] - 1].push_back({r[2], r[0] - 1});
 	}
 
-	vector<int> l(V), d(V, INT_MAX), f(V), type(V, -1);
+	vector<int> l(V), d(V), f(V), type(V, -1);
 
 	for (int v = 0; v < V; ++v)
 	{
 		l[v] = v;
-
-		for (auto [u, l] : adj[v])
-		{
-			if (d[v] > l)
-			{
-				f[v] = u;
-				d[v] = l;
-			}
-		}
+		auto it = min_element(begin(adj[v]), end(adj[v]));
+		d[v] = it->first;
+		f[v] = it->second;
 	}
 
 	sort(begin(l), end(l), 

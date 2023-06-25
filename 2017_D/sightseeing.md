@@ -7,3 +7,9 @@ You begin at city $1$ at time $0$ and plan to travel to cities $2$ to $N$ in asc
 At each city between $1$ and $N - 1$, inclusive, you can decide to spend $T_s$ time sightseeing before waiting for the next bus, or you can immediately wait for the next bus. You cannot go sightseeing multiple times in the same city. You may assume that boarding and leaving buses takes no time. You must arrive at city $N$ by time $T_f$ at the latest. (Note that you cannot go sightseeing in city $N$, even if you arrive early. There's nothing to see there!)
 
 What is the maximum number of cities you can go sightseeing in?
+
+## Input
+
+The input starts with one line containing one integer $T$, which is the number of test cases. $T$ test cases follow.  
+Each test case begins with a line containing 3 integers, $N$, $T_s$ and $T_f$, representing the number of cities, the time taken for sightseeing in any city, and the latest time you can arrive in city $N$.  
+This is followed by $N - 1$ lines. On the $i$-th line, there are 3 integers, $S_i$, $F_i$ and $D_i$, indicating the start time, frequency, and duration of buses travelling from city $i$ to city $i + 1$.

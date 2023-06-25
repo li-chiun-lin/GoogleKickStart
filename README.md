@@ -218,13 +218,13 @@
   - [x] Specializing Villages
   - [ ] Palindromic Sequence
 - Round G
-  - [ ] Product Triplets
-  - [ ] Combining Classes
+  - [x] Product Triplets
+  - [x] Combining Classes
   - [ ] Cave Escape
 - Round H
-  - [ ] Big Buttons
-  - [ ] Mural
-  - [ ] Let Me Count The Ways
+  - [x] Big Buttons
+  - [x] Mural
+  - [x] Let Me Count The Ways
 
 ## 2017
 
