@@ -5,3 +5,8 @@ Alice is trying to prevent dangerous black holes from threatening Earth. Right n
 Alice must place these spheres so that each black hole is covered by at least one sphere. Moreover, to ensure stability, the total set of points covered by at least one sphere must form a single connected area.
 
 Alice wants to solve this critical problem as inexpensively as possible. What is the minimum radius that she can use?
+
+## Input
+
+The input starts with one line with one integer $T$: the number of test cases. $T$ test cases follow. Each test case consists of three lines.  
+The $i$-th of those lines consists of three integers $X_i$, $Y_i$, and $Z_i$, representing the 3-D coordinates of the $i$-th black hole.

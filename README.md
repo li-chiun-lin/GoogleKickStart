@@ -246,16 +246,16 @@
   - [ ] Sherlock and Matrix Game
   - [ ] Trash
 - Round E
-  - [ ] Trapezoid Counting
-  - [ ] Copy & Paste
+  - [x] Trapezoid Counting
+  - [x] Copy & Paste
   - [ ] Blackhole
 - Round F
-  - [ ] Cake
-  - [ ] Kicksort
-  - [ ] Dance Battle
-  - [ ] Catch Them All
+  - [x] Cake
+  - [x] Kicksort
+  - [x] Dance Battle
+  - [x] Catch Them All
 - Round G
-  - [ ] Huge Numbers
+  - [x] Huge Numbers
   - [ ] Cards Game
   - [ ] Matrix Cutting
 

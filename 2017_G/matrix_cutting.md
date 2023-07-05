@@ -7,3 +7,9 @@ He wants to cut this matrix into $N \times M$ submatrices (each of size $1 \time
 Prof Shekhu invites his best student Akki for this job and makes an interesting proposition. Every time Akki makes a cut in a submatrix, before he makes the cut, he is awarded a number of coins equal to the minimum value in that submatrix. Note that with every cut, the total number of submatrices increases. Also, cuts in any two different submatrices are independent and likewise, Akki is awarded independently for the cuts in different submatrices.
 
 Now, Akki has various ways in which he can make the cuts. Can you help him by maximizing the total number of coins he can gain?
+
+## Input
+
+The first line of the input contains an integer $T$, the number of test cases. $T$ test cases follow.  
+The first line of each test case contains two integers $N$ and $M$, as described above.  
+Next, there are $N$ lines of $M$ positive integers each; these describe the matrix.

@@ -10,3 +10,10 @@ Professor Shekhu was a famous scientist working in the field of game theory in t
 - The game ends when there is only one card remaining in the box (and so it is impossible to make another move).
 
 Professor Shekhu has summoned his best student, Akki, to play this game. Can you help Akki find the minimum possible total, considering all possible ways in which he can play the game?
+
+## Input
+
+The first line of the input contains an integer $T$, the number of test cases. $T$ test cases follow; each test case consists of three lines.  
+The first line contains a positive integer $N$: the number of cards in the box.  
+The second line contains a list of $N$ positive integers $R_i$; the $i$-th of these represents the red number on the $i$-th card.  
+The third line contains a list of $N$ positive integers $B_i$; the $i$-th of these represents the blue number on the $i$-th card.

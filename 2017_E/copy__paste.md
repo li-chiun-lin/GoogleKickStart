@@ -7,3 +7,8 @@ You want to create a certain target string $S$, which consists only of lowercase
 - Add the entire contents of the clipboard to the end of your string. (The contents of the clipboard do not change.)
 
 What is the smallest number of operations needed to create your target string? Note that you must create exactly the target string, with no additional letters.
+
+## Input
+
+The first line of the input gives the number of test cases, $T$. $T$ lines follow.  
+Each line contains the target string $S$.

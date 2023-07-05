@@ -7,3 +7,9 @@ Your city consists of $N$ locations numbered from $1$ to $N$. You start at locat
 At time $0$, a Codejamon will appear at a uniformly random location other than your current location (which is location $1$ at time $0$). Uniformly random means that the probability that it will appear at each of the $N - 1$ locations other than your current location is exactly $1 / (N - 1)$. The instant that a Codejamon appears, you can immediately start moving towards it. When you arrive at a location containing a Codejamon, you instantly catch it, and then a new Codejamon will instantly appear at a uniformly random location other than your current location, and so on. Notice that only one Codejamon is present at any given time, and you must catch the existing one before the next will appear.
 
 Given the layout of your city, calculate the expected time to catch $P$ Codejamon, assuming that you always take the fastest possible route between any two locations.
+
+## Input
+
+The input starts with one line containing one integer $T$: the number of test cases. $T$ test cases follow.  
+Each test case begins with one line containing 3 integers $N$, $M$ and $P$, indicating the number of locations, roads, and Codejamon to catch, respectively.  
+Then, each test case continues with $M$ lines; the $i$-th of these lines contains three integers $U_i$, $V_i$ and $D_i$, indicating that the $i$-th road is between locations $U_i$ and $V_i$, and it takes $D_i$ minutes to travel on it in either direction.

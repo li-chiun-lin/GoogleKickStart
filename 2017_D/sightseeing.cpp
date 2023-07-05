@@ -26,37 +26,42 @@
 
 using namespace std;
 
-void dfs(int N, int Ts, int Tf, vector<tuple<int, int, int>>& B, int i, int t, int seen, int& ret)
+int dfs(int N, int Ts, int Tf, vector<tuple<int, int, int>>& B, int i, int t, vector<vector<int>>& dp)
 {
-	//cout << i << " " << t << "\n";
-
 	if (t > Tf)
-		return ;
+		return -1;
 
-	if (i == N - 1)
-	{
-		ret = max(ret, seen);
-		return ;
-	}
+	if (i == B.size())
+		return 0;
+
+	if (dp[i][t] != -2)
+		return dp[i][t];
 
 	auto [s, f, d] = B[i];
+	int q1 = (max(t - s, 0) + f - 1) / f;
+	int q2 = (max(t + Ts - s, 0) + f - 1) / f;
 
-	// dont
-	int bus_round1 = (max(t - s, 0) + (f - 1)) / f;
-	dfs(N, Ts, Tf, B, i + 1, s + bus_round1 * f + d, seen, ret);
+	int r1 = dfs(N, Ts, Tf, B, i + 1, s + f * q1 + d, dp);
+	int r2 = dfs(N, Ts, Tf, B, i + 1, s + f * q2 + d, dp);
+	int ret = -1;
 
-	// take
-	int bus_round2 = (max(t + Ts - s, 0) + (f - 1)) / f;
-	dfs(N, Ts, Tf, B, i + 1, s + bus_round2 * f + d, seen + 1, ret);
+	if (r1 == -1 && r2 == -1)
+		ret = -1;
+	else if (r1 == -1)
+		ret = r2 + 1;
+	else if (r2 == -1)
+		ret = r1;
+	else
+		ret= max(r1, r2 + 1);
 
+	return dp[i][t] = ret;
 }
 
 int sightseeing(int N, int Ts, int Tf, vector<tuple<int, int, int>>& B)
 {
-	int ret = -1;
-	dfs(N, Ts, Tf, B, 0, 0, 0, ret);
+	vector<vector<int>> dp(N, vector<int>(Tf + 1, -2));
 
-	return ret;
+	return dfs(N, Ts, Tf, B, 0, 0, dp);
 }
 
 int main()
